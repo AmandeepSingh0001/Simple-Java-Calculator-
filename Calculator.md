@@ -14,7 +14,8 @@ class Main
         a=sc.nextDouble();
         b=sc.nextDouble();
 
-        switch(op){
+        switch(op)
+        {
             case'+':
         c=a+b;
         System.out.println(a+"+"+b+"="+c);
@@ -37,6 +38,6 @@ class Main
         default:
         System.out.println("Invalid Oprator");
         }
-        sc.close();
+        //sc.close();
     }
 }
